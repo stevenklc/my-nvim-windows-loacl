@@ -28,3 +28,5 @@ opt.smartcase = true
 
 -- 真色彩
 opt.termguicolors = true
+
+vim.o.showtabline = 2

@@ -47,3 +47,6 @@ vim.keymap.set('t', '<A-h>',
       end
 )
 
+-- 分頁
+vim.keymap.set('n', '<A-n>', ':tabe<CR>', opts)
+vim.keymap.set('n', '<Tab>', ':tabn<CR>', opts)
