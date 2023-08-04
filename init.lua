@@ -45,8 +45,13 @@ require('lspconfig').ansiblels.setup {
 require('lspconfig').bashls.setup {
     capabilities = capabilities,
     filetypes = { "sh" }
-
 }
+
+require('lspconfig').yamlls.setup {
+    capabilities = capabilities,
+    filetypes = { "yaml", "yml"}
+}
+
 -- cmp
 -- Set up nvim-cmp.
   local cmp = require'cmp'
